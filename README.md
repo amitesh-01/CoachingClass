@@ -1,7 +1,7 @@
 # gofr-project
 
 REQUIREMENTS :-
-MySQL , Docker Desktop , Postman(optional)
+Golang , MySQL , Docker Desktop , Postman(optional)
 
 Open the terminal in project location and run the following command 
 
