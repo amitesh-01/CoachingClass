@@ -1,0 +1,60 @@
+---------------------------------------
+|           Coaching Institute         |
+---------------------------------------
+| - name: String                      |
+| - location: String                  |
+| - students: List<Student>           |
+| - teachers: List<Teacher>           |
+---------------------------------------
+| + addStudent(student: Student)      |
+| + removeStudent(student: Student)   |
+| + addTeacher(teacher: Teacher)      |
+| + removeTeacher(teacher: Teacher)   |
+| + getStudents(): List<Student>      |
+| + getTeachers(): List<Teacher>      |
+---------------------------------------
+
+               ^
+               |
+               |
+               |
+---------------------------------------
+|              Person                   |
+---------------------------------------
+| - id: int                            |
+| - firstName: String                  |
+| - lastName: String                   |
+| - contactNumber: String              |
+---------------------------------------
+| + getFullName(): String             |
+---------------------------------------
+
+               ^
+               |
+               |
+               |
+---------------------------------------
+|              Student                  |
+---------------------------------------
+| - grade: String                      |
+| - subjects: List<String>             |
+|-------------------------------------|
+| + getGrade(): String                 |
+| + getSubjects(): List<String>        |
+---------------------------------------
+| + enrollInCourse(course: Course)    |
+| + viewTranscript(): Transcript       |
+---------------------------------------
+
+               ^
+               |
+               |
+               |
+---------------------------------------
+|              Teacher                  |
+---------------------------------------
+| - subject: String                    |
+| - experience: int                    |
+| - coursesTaught: List<Course>        |
+|-------------------------------------|
+| + getSubject(): String               |
